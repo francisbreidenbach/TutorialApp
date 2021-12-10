@@ -29,5 +29,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 16,
     flex: 1,
     backgroundColor: "#fff",
+    alignItems: "stretch",
   },
 });
