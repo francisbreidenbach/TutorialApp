@@ -1,22 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import React from "react";
+import Greeting from "./src/components/greeting";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <TextInput value="Francis Breidenbach"/>
-      <Text>Welcome to the Tutorial App for Udemy Course!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Greeting />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
